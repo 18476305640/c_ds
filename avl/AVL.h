@@ -11,6 +11,7 @@ typedef struct node {
     void *data;
     struct Node *lchild,*rchild;
     struct Node *parent;
+    int *height;
 } Tree,Node;
 
 Tree* avl_create();
@@ -18,3 +19,4 @@ int add(Tree *tree, void *value);
 void tree_print(Tree *tree);
 int contain(Tree *tree, void *key);
 int node_remove(Tree *tree, void *key);
+int tree_height(Tree *tree);

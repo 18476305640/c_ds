@@ -7,6 +7,7 @@ Tree* avl_create() {
     tree->lchild = NULL;
     tree->rchild = NULL;
     tree->parent = NULL;
+    tree->height = NULL;
     return tree;
 }
 int add(Tree *tree, void *value) {
@@ -22,6 +23,7 @@ int add(Tree *tree, void *value) {
     node->lchild = NULL;
     node->rchild = NULL;
     node->parent = NULL;
+    node->height = NULL;
 
     //判断要放在哪里
     Node *tmp = tree;
@@ -138,4 +140,31 @@ int node_remove(Tree *tree, void *key) {
 
     }
     return NO;
+}
+//计算数的高度
+int tree_height(Tree *tree) {
+    //如果是叶子节点，高度是1
+    if (tree->rchild == NULL && tree->lchild == NULL) return 1;
+    //如果不是叶子节点，那么高度肯定大于1
+    Tree *left_tree = tree->lchild;
+    Tree *right_tree = tree->rchild;
+
+    int left_height = 0;
+    int right_height = 0;
+    if (left_tree != NULL ){
+        if (left_tree->height == NULL){
+            left_tree->height = tree_height(tree->lchild);
+        }
+        left_height = left_tree->height;
+    }
+
+    if (right_tree != NULL ){
+        if (right_tree->height == NULL){
+            right_tree->height = tree_height(tree->rchild);
+        }
+        right_height = right_tree->height;
+    }
+
+    //下面的高度+1 == tree的高度
+    return ((left_height > right_height)? left_height:right_height) + 1;
 }
