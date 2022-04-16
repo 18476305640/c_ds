@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cds.dir/avl/AVL.c.obj"
-  "CMakeFiles/cds.dir/avl/main.c.obj"
-  "CMakeFiles/cds.dir/bst/main.c.obj"
+  "CMakeFiles/cds.dir/tree/avl/AVL.c.obj"
+  "CMakeFiles/cds.dir/tree/avl/main.c.obj"
+  "CMakeFiles/cds.dir/tree/bst/main.c.obj"
   "cds.exe"
   "cds.exe.manifest"
   "cds.pdb"

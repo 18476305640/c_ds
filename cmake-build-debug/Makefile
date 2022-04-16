@@ -142,86 +142,86 @@ cds/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/build
 .PHONY : cds/fast
 
-avl/AVL.obj: avl/AVL.c.obj
+tree/avl/AVL.obj: tree/avl/AVL.c.obj
 
-.PHONY : avl/AVL.obj
-
-# target to build an object file
-avl/AVL.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/AVL.c.obj
-.PHONY : avl/AVL.c.obj
-
-avl/AVL.i: avl/AVL.c.i
-
-.PHONY : avl/AVL.i
-
-# target to preprocess a source file
-avl/AVL.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/AVL.c.i
-.PHONY : avl/AVL.c.i
-
-avl/AVL.s: avl/AVL.c.s
-
-.PHONY : avl/AVL.s
-
-# target to generate assembly for a file
-avl/AVL.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/AVL.c.s
-.PHONY : avl/AVL.c.s
-
-avl/main.obj: avl/main.c.obj
-
-.PHONY : avl/main.obj
+.PHONY : tree/avl/AVL.obj
 
 # target to build an object file
-avl/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/main.c.obj
-.PHONY : avl/main.c.obj
+tree/avl/AVL.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/tree/avl/AVL.c.obj
+.PHONY : tree/avl/AVL.c.obj
 
-avl/main.i: avl/main.c.i
+tree/avl/AVL.i: tree/avl/AVL.c.i
 
-.PHONY : avl/main.i
+.PHONY : tree/avl/AVL.i
 
 # target to preprocess a source file
-avl/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/main.c.i
-.PHONY : avl/main.c.i
+tree/avl/AVL.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/tree/avl/AVL.c.i
+.PHONY : tree/avl/AVL.c.i
 
-avl/main.s: avl/main.c.s
+tree/avl/AVL.s: tree/avl/AVL.c.s
 
-.PHONY : avl/main.s
+.PHONY : tree/avl/AVL.s
 
 # target to generate assembly for a file
-avl/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/main.c.s
-.PHONY : avl/main.c.s
+tree/avl/AVL.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/tree/avl/AVL.c.s
+.PHONY : tree/avl/AVL.c.s
 
-bst/main.obj: bst/main.c.obj
+tree/avl/main.obj: tree/avl/main.c.obj
 
-.PHONY : bst/main.obj
+.PHONY : tree/avl/main.obj
 
 # target to build an object file
-bst/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/bst/main.c.obj
-.PHONY : bst/main.c.obj
+tree/avl/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/tree/avl/main.c.obj
+.PHONY : tree/avl/main.c.obj
 
-bst/main.i: bst/main.c.i
+tree/avl/main.i: tree/avl/main.c.i
 
-.PHONY : bst/main.i
+.PHONY : tree/avl/main.i
 
 # target to preprocess a source file
-bst/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/bst/main.c.i
-.PHONY : bst/main.c.i
+tree/avl/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/tree/avl/main.c.i
+.PHONY : tree/avl/main.c.i
 
-bst/main.s: bst/main.c.s
+tree/avl/main.s: tree/avl/main.c.s
 
-.PHONY : bst/main.s
+.PHONY : tree/avl/main.s
 
 # target to generate assembly for a file
-bst/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/bst/main.c.s
-.PHONY : bst/main.c.s
+tree/avl/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/tree/avl/main.c.s
+.PHONY : tree/avl/main.c.s
+
+tree/bst/main.obj: tree/bst/main.c.obj
+
+.PHONY : tree/bst/main.obj
+
+# target to build an object file
+tree/bst/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/tree/bst/main.c.obj
+.PHONY : tree/bst/main.c.obj
+
+tree/bst/main.i: tree/bst/main.c.i
+
+.PHONY : tree/bst/main.i
+
+# target to preprocess a source file
+tree/bst/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/tree/bst/main.c.i
+.PHONY : tree/bst/main.c.i
+
+tree/bst/main.s: tree/bst/main.c.s
+
+.PHONY : tree/bst/main.s
+
+# target to generate assembly for a file
+tree/bst/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/tree/bst/main.c.s
+.PHONY : tree/bst/main.c.s
 
 # Help Target
 help:
@@ -232,15 +232,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cds
-	@echo ... avl/AVL.obj
-	@echo ... avl/AVL.i
-	@echo ... avl/AVL.s
-	@echo ... avl/main.obj
-	@echo ... avl/main.i
-	@echo ... avl/main.s
-	@echo ... bst/main.obj
-	@echo ... bst/main.i
-	@echo ... bst/main.s
+	@echo ... tree/avl/AVL.obj
+	@echo ... tree/avl/AVL.i
+	@echo ... tree/avl/AVL.s
+	@echo ... tree/avl/main.obj
+	@echo ... tree/avl/main.i
+	@echo ... tree/avl/main.s
+	@echo ... tree/bst/main.obj
+	@echo ... tree/bst/main.i
+	@echo ... tree/bst/main.s
 .PHONY : help
 
 

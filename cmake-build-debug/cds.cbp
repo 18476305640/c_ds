@@ -76,19 +76,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/home/code/c/cds/avl/AVL.c">
+		<Unit filename="D:/home/code/c/cds/tree/avl/AVL.c">
 			<Option target="cds"/>
 		</Unit>
-		<Unit filename="D:/home/code/c/cds/avl/AVL.h">
+		<Unit filename="D:/home/code/c/cds/tree/avl/AVL.h">
 			<Option target="cds"/>
 		</Unit>
-		<Unit filename="D:/home/code/c/cds/avl/main.c">
+		<Unit filename="D:/home/code/c/cds/tree/avl/main.c">
 			<Option target="cds"/>
 		</Unit>
-		<Unit filename="D:/home/code/c/cds/bst/BST.h">
+		<Unit filename="D:/home/code/c/cds/tree/bst/BST.h">
 			<Option target="cds"/>
 		</Unit>
-		<Unit filename="D:/home/code/c/cds/bst/main.c">
+		<Unit filename="D:/home/code/c/cds/tree/bst/main.c">
 			<Option target="cds"/>
 		</Unit>
 		<Unit filename="D:/home/code/c/cds/CMakeLists.txt">

@@ -76,57 +76,57 @@ include CMakeFiles/cds.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cds.dir/flags.make
 
-CMakeFiles/cds.dir/bst/main.c.obj: CMakeFiles/cds.dir/flags.make
-CMakeFiles/cds.dir/bst/main.c.obj: ../bst/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\home\code\c\cds\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cds.dir/bst/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cds.dir\bst\main.c.obj   -c D:\home\code\c\cds\bst\main.c
+CMakeFiles/cds.dir/tree/bst/main.c.obj: CMakeFiles/cds.dir/flags.make
+CMakeFiles/cds.dir/tree/bst/main.c.obj: ../tree/bst/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\home\code\c\cds\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cds.dir/tree/bst/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cds.dir\tree\bst\main.c.obj   -c D:\home\code\c\cds\tree\bst\main.c
 
-CMakeFiles/cds.dir/bst/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cds.dir/bst/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\home\code\c\cds\bst\main.c > CMakeFiles\cds.dir\bst\main.c.i
+CMakeFiles/cds.dir/tree/bst/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cds.dir/tree/bst/main.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\home\code\c\cds\tree\bst\main.c > CMakeFiles\cds.dir\tree\bst\main.c.i
 
-CMakeFiles/cds.dir/bst/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cds.dir/bst/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\home\code\c\cds\bst\main.c -o CMakeFiles\cds.dir\bst\main.c.s
+CMakeFiles/cds.dir/tree/bst/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cds.dir/tree/bst/main.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\home\code\c\cds\tree\bst\main.c -o CMakeFiles\cds.dir\tree\bst\main.c.s
 
-CMakeFiles/cds.dir/avl/AVL.c.obj: CMakeFiles/cds.dir/flags.make
-CMakeFiles/cds.dir/avl/AVL.c.obj: ../avl/AVL.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\home\code\c\cds\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cds.dir/avl/AVL.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cds.dir\avl\AVL.c.obj   -c D:\home\code\c\cds\avl\AVL.c
+CMakeFiles/cds.dir/tree/avl/AVL.c.obj: CMakeFiles/cds.dir/flags.make
+CMakeFiles/cds.dir/tree/avl/AVL.c.obj: ../tree/avl/AVL.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\home\code\c\cds\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cds.dir/tree/avl/AVL.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cds.dir\tree\avl\AVL.c.obj   -c D:\home\code\c\cds\tree\avl\AVL.c
 
-CMakeFiles/cds.dir/avl/AVL.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cds.dir/avl/AVL.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\home\code\c\cds\avl\AVL.c > CMakeFiles\cds.dir\avl\AVL.c.i
+CMakeFiles/cds.dir/tree/avl/AVL.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cds.dir/tree/avl/AVL.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\home\code\c\cds\tree\avl\AVL.c > CMakeFiles\cds.dir\tree\avl\AVL.c.i
 
-CMakeFiles/cds.dir/avl/AVL.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cds.dir/avl/AVL.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\home\code\c\cds\avl\AVL.c -o CMakeFiles\cds.dir\avl\AVL.c.s
+CMakeFiles/cds.dir/tree/avl/AVL.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cds.dir/tree/avl/AVL.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\home\code\c\cds\tree\avl\AVL.c -o CMakeFiles\cds.dir\tree\avl\AVL.c.s
 
-CMakeFiles/cds.dir/avl/main.c.obj: CMakeFiles/cds.dir/flags.make
-CMakeFiles/cds.dir/avl/main.c.obj: ../avl/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\home\code\c\cds\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cds.dir/avl/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cds.dir\avl\main.c.obj   -c D:\home\code\c\cds\avl\main.c
+CMakeFiles/cds.dir/tree/avl/main.c.obj: CMakeFiles/cds.dir/flags.make
+CMakeFiles/cds.dir/tree/avl/main.c.obj: ../tree/avl/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\home\code\c\cds\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cds.dir/tree/avl/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cds.dir\tree\avl\main.c.obj   -c D:\home\code\c\cds\tree\avl\main.c
 
-CMakeFiles/cds.dir/avl/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cds.dir/avl/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\home\code\c\cds\avl\main.c > CMakeFiles\cds.dir\avl\main.c.i
+CMakeFiles/cds.dir/tree/avl/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cds.dir/tree/avl/main.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\home\code\c\cds\tree\avl\main.c > CMakeFiles\cds.dir\tree\avl\main.c.i
 
-CMakeFiles/cds.dir/avl/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cds.dir/avl/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\home\code\c\cds\avl\main.c -o CMakeFiles\cds.dir\avl\main.c.s
+CMakeFiles/cds.dir/tree/avl/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cds.dir/tree/avl/main.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\home\code\c\cds\tree\avl\main.c -o CMakeFiles\cds.dir\tree\avl\main.c.s
 
 # Object files for target cds
 cds_OBJECTS = \
-"CMakeFiles/cds.dir/bst/main.c.obj" \
-"CMakeFiles/cds.dir/avl/AVL.c.obj" \
-"CMakeFiles/cds.dir/avl/main.c.obj"
+"CMakeFiles/cds.dir/tree/bst/main.c.obj" \
+"CMakeFiles/cds.dir/tree/avl/AVL.c.obj" \
+"CMakeFiles/cds.dir/tree/avl/main.c.obj"
 
 # External object files for target cds
 cds_EXTERNAL_OBJECTS =
 
-cds.exe: CMakeFiles/cds.dir/bst/main.c.obj
-cds.exe: CMakeFiles/cds.dir/avl/AVL.c.obj
-cds.exe: CMakeFiles/cds.dir/avl/main.c.obj
+cds.exe: CMakeFiles/cds.dir/tree/bst/main.c.obj
+cds.exe: CMakeFiles/cds.dir/tree/avl/AVL.c.obj
+cds.exe: CMakeFiles/cds.dir/tree/avl/main.c.obj
 cds.exe: CMakeFiles/cds.dir/build.make
 cds.exe: CMakeFiles/cds.dir/linklibs.rsp
 cds.exe: CMakeFiles/cds.dir/objects1.rsp

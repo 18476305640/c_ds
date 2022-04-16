@@ -6,19 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/home/code/c/cds/avl/AVL.h
+D:/home/code/c/cds/tree/avl/AVL.c
+AVL.h
+D:/home/code/c/cds/tree/avl/AVL.h
+
+D:/home/code/c/cds/tree/avl/AVL.h
 stdio.h
 -
 stdlib.h
 -
 
-D:/home/code/c/cds/avl/main.c
+D:/home/code/c/cds/tree/avl/main.c
 stdio.h
 -
 stdlib.h
 -
 AVL.h
-D:/home/code/c/cds/avl/AVL.h
+D:/home/code/c/cds/tree/avl/AVL.h
 math.h
-D:/home/code/c/cds/avl/math.h
+D:/home/code/c/cds/tree/avl/math.h
+
+D:/home/code/c/cds/tree/bst/main.c
 
