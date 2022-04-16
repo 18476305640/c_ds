@@ -1,5 +1,5 @@
 //
-// Created by 21192 on 2022/4/14.
+// Created by 21192 on 2022/4/16.
 //
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,10 +13,8 @@ typedef struct node {
     struct Node *parent;
 } Tree,Node;
 
-Tree* bst_create();
+Tree* avl_create();
 int add(Tree *tree, void *value);
 void tree_print(Tree *tree);
 int contain(Tree *tree, void *key);
 int node_remove(Tree *tree, void *key);
-
-

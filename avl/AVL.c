@@ -1,6 +1,7 @@
-#include "BST.h"
+#include "AVL.h"
 
-Tree* bst_create() {
+
+Tree* avl_create() {
     Tree *tree = (Tree*)malloc(sizeof(Tree));
     tree->data = NULL;
     tree->lchild = NULL;

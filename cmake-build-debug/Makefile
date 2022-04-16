@@ -67,10 +67,10 @@ RM = "D:\home\opt\CLion\CLion 2020.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\21192\CLionProjects\untitled
+CMAKE_SOURCE_DIR = D:\home\code\c\cds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\21192\CLionProjects\untitled\cmake-build-debug
+CMAKE_BINARY_DIR = D:\home\code\c\cds\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\21192\CLionProjects\untitled\cmake-build-debug\CMakeFiles C:\Users\21192\CLionProjects\untitled\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\home\code\c\cds\cmake-build-debug\CMakeFiles D:\home\code\c\cds\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\21192\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\home\code\c\cds\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,44 +130,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named cds
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled
-.PHONY : untitled
+cds: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cds
+.PHONY : cds
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+cds/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/build
+.PHONY : cds/fast
 
-bst/BST.obj: bst/BST.c.obj
+avl/AVL.obj: avl/AVL.c.obj
 
-.PHONY : bst/BST.obj
+.PHONY : avl/AVL.obj
 
 # target to build an object file
-bst/BST.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/bst/BST.c.obj
-.PHONY : bst/BST.c.obj
+avl/AVL.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/AVL.c.obj
+.PHONY : avl/AVL.c.obj
 
-bst/BST.i: bst/BST.c.i
+avl/AVL.i: avl/AVL.c.i
 
-.PHONY : bst/BST.i
+.PHONY : avl/AVL.i
 
 # target to preprocess a source file
-bst/BST.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/bst/BST.c.i
-.PHONY : bst/BST.c.i
+avl/AVL.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/AVL.c.i
+.PHONY : avl/AVL.c.i
 
-bst/BST.s: bst/BST.c.s
+avl/AVL.s: avl/AVL.c.s
 
-.PHONY : bst/BST.s
+.PHONY : avl/AVL.s
 
 # target to generate assembly for a file
-bst/BST.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/bst/BST.c.s
-.PHONY : bst/BST.c.s
+avl/AVL.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/AVL.c.s
+.PHONY : avl/AVL.c.s
+
+avl/main.obj: avl/main.c.obj
+
+.PHONY : avl/main.obj
+
+# target to build an object file
+avl/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/main.c.obj
+.PHONY : avl/main.c.obj
+
+avl/main.i: avl/main.c.i
+
+.PHONY : avl/main.i
+
+# target to preprocess a source file
+avl/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/main.c.i
+.PHONY : avl/main.c.i
+
+avl/main.s: avl/main.c.s
+
+.PHONY : avl/main.s
+
+# target to generate assembly for a file
+avl/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/avl/main.c.s
+.PHONY : avl/main.c.s
 
 bst/main.obj: bst/main.c.obj
 
@@ -175,7 +202,7 @@ bst/main.obj: bst/main.c.obj
 
 # target to build an object file
 bst/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/bst/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/bst/main.c.obj
 .PHONY : bst/main.c.obj
 
 bst/main.i: bst/main.c.i
@@ -184,7 +211,7 @@ bst/main.i: bst/main.c.i
 
 # target to preprocess a source file
 bst/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/bst/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/bst/main.c.i
 .PHONY : bst/main.c.i
 
 bst/main.s: bst/main.c.s
@@ -193,7 +220,7 @@ bst/main.s: bst/main.c.s
 
 # target to generate assembly for a file
 bst/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/bst/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cds.dir\build.make CMakeFiles/cds.dir/bst/main.c.s
 .PHONY : bst/main.c.s
 
 # Help Target
@@ -204,10 +231,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... untitled
-	@echo ... bst/BST.obj
-	@echo ... bst/BST.i
-	@echo ... bst/BST.s
+	@echo ... cds
+	@echo ... avl/AVL.obj
+	@echo ... avl/AVL.i
+	@echo ... avl/AVL.s
+	@echo ... avl/main.obj
+	@echo ... avl/main.i
+	@echo ... avl/main.s
 	@echo ... bst/main.obj
 	@echo ... bst/main.i
 	@echo ... bst/main.s

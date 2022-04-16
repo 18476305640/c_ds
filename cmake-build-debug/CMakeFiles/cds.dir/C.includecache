@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/home/code/c/cds/avl/AVL.c
+AVL.h
+D:/home/code/c/cds/avl/AVL.h
+
+D:/home/code/c/cds/avl/AVL.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/home/code/c/cds/avl/main.c
+stdio.h
+-
+stdlib.h
+-
+AVL.h
+D:/home/code/c/cds/avl/AVL.h
+math.h
+D:/home/code/c/cds/avl/math.h
+
+D:/home/code/c/cds/bst/main.c
+
