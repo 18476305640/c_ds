@@ -5,15 +5,19 @@
 int main() {
 
     Tree *tree = avl_create();
-    add(tree,44);
-    add(tree,16);
-    add(tree,56);
-    add(tree,12);
-    add(tree,21);
-    add(tree,96);
-    add(tree,35);
-    add(tree,78);
+    add(tree,15);
+    add(tree,6);
+    add(tree,23);
+    add(tree,4);
+    add(tree,7);
+    add(tree,71);
+    add(tree,5);
+    add(tree,50);
+
+
+    node_remove(tree,5);
+    add(tree,59);
+    node_remove(tree,59);
     tree_print(tree);
-    printf("height=%d\n",tree_height(tree));
     printf("pause~");
 }

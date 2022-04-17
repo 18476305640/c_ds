@@ -19,4 +19,5 @@ int add(Tree *tree, void *value);
 void tree_print(Tree *tree);
 int contain(Tree *tree, void *key);
 int node_remove(Tree *tree, void *key);
-int tree_height(Tree *tree);
+int update_height(Tree *tree);
+void up_update_height(Tree *tree);
