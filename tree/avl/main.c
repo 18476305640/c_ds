@@ -5,17 +5,16 @@
 int main() {
 
     Tree *tree = avl_create();
-    add(tree,89);
-    add(tree,28);
-    add(tree,97);
-    add(tree,2);
-    add(tree,30);
-    add(tree,91);
-    add(tree,99);
-    add(tree,1);
-    add(tree,6);
-    add(tree,73);
-    add(tree,50);
+    add(tree,11);
+    add(tree,8);
+    add(tree,47);
+    add(tree,7);
+    add(tree,46);
+    add(tree,72);
+    add(tree,26);
+    add(tree,63);
+    add(tree,77);
+    add(tree,67);
 
 
 
@@ -24,5 +23,5 @@ int main() {
     node_remove(tree,1);
     node_remove(tree,6);
     tree_print(tree);
-    printf("pause~");
+    printf("\npause~");
 }

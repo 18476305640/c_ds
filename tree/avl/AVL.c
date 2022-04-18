@@ -102,8 +102,6 @@ int node_remove(Tree *tree, void *key) {
     while (NULL != tmp) {
         if (tmp->data == key) {
             //找到了要删除的节点tmp
-            //如果该节点是叶子节点时
-            //要修复的高度的节点
             if(tmp->lchild == NULL && tmp->rchild == NULL) {
                 //这是一个叶子节点，让父节点的指向该节点变为NULL
                 Node *parent = tmp->parent;
@@ -116,7 +114,7 @@ int node_remove(Tree *tree, void *key) {
                 }
                 //释放掉被删除的节点
                 free(tmp);
-                //从tmp的父节点开始向上维护树的高度,
+                //从tmp的父节点开始向上维护树的高度
                 up_update_height(parent);
             } else if (tmp->lchild == NULL || tmp->rchild == NULL) {
                 //度为1的分支节点, 将子节点替换要删除的节点
@@ -157,7 +155,7 @@ int node_remove(Tree *tree, void *key) {
     return NO;
 }
 
-//计算数的高度, 想要计算树的高度，需要添加height属性，更新树的高度
+//计算树的高度, 想要计算树的高度，需要添加height属性，更新树的高度
 void down_update_height(Tree *tree) {
     //如果是叶子节点，高度是1
     if (tree->rchild == NULL && tree->lchild == NULL) {
@@ -190,6 +188,7 @@ void down_update_height(Tree *tree) {
 void up_update_height(Tree *tree) {
     Tree *tmp = tree;
     while (tmp != NULL) {
+        //向上更新，本质也是用的是向下更新down_update_height
         down_update_height(tmp);
         tmp = tmp->parent;
     }
